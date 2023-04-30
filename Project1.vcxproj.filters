@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Package">
+      <UniqueIdentifier>{544d5c8b-78e3-46aa-a8ec-6bad595ca7a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFeature.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Threats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game_Base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFeature.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Threats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AllHeaderFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="highscore.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="font\font suggest.ttf">
+      <Filter>Package</Filter>
+    </Font>
+    <Font Include="font\fonts.ttf">
+      <Filter>Package</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="imgs\background\1.png">
+      <Filter>Package</Filter>
+    </Image>
+    <Image Include="imgs\background\2.png">
+      <Filter>Package</Filter>
+    </Image>
+    <Image Include="imgs\background\3.png">
+      <Filter>Package</Filter>
+    </Image>
+    <Image Include="imgs\background\4.png">
+      <Filter>Package</Filter>
+    </Image>
+    <Image Include="imgs\background\5.png">
+      <Filter>Package</Filter>
+    </Image>
+    <Image Include="imgs\background\CityMenu.png">
+      <Filter>Package</Filter>
+    </Image>
+    <Image Include="imgs\background\ground.png">
+      <Filter>Package</Filter>
+    </Image>
+    <Image Include="imgs\background\lose.png">
+      <Filter>Package</Filter>
+    </Image>
+    <Image Include="imgs\background\tutorials.png">
+      <Filter>Package</Filter>
+    </Image>
+    <Image Include="imgs\button\big_button\continueandpause.png">
+      <Filter>Package</Filter>
+    </Image>
+    <Image Include="imgs\button\big_button\exit_button.png">
+      <Filter>Package</Filter>
+    </Image>
+    <Image Include="imgs\button\big_button\Play game.png">
+      <Filter>Package</Filter>
+    </Image>
+    <Image Include="imgs\button\big_button\Tutorials.png">
+      <Filter>Package</Filter>
+    </Image>
+    <Image Include="imgs\character\char.png">
+      <Filter>Package</Filter>
+    </Image>
+    <Image Include="imgs\character\Jump.png">
+      <Filter>Package</Filter>
+    </Image>
+    <Image Include="imgs\character\tele.png">
+      <Filter>Package</Filter>
+    </Image>
+    <Image Include="imgs\Threats\dog.png">
+      <Filter>Package</Filter>
+    </Image>
+    <Image Include="imgs\Threats\Drop.png">
+      <Filter>Package</Filter>
+    </Image>
+    <Image Include="imgs\Threats\obstacle.png">
+      <Filter>Package</Filter>
+    </Image>
+    <Image Include="imgs\Threats\rocket.png">
+      <Filter>Package</Filter>
+    </Image>
+    <Image Include="imgs\Threats\warning.png">
+      <Filter>Package</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sounds\bkgr_sound.mp3">
+      <Filter>Package</Filter>
+    </Media>
+    <Media Include="sounds\button_sound.wav">
+      <Filter>Package</Filter>
+    </Media>
+    <Media Include="sounds\click_sound.wav">
+      <Filter>Package</Filter>
+    </Media>
+    <Media Include="sounds\gLose.mp3">
+      <Filter>Package</Filter>
+    </Media>
+    <Media Include="sounds\jump_sound.wav">
+      <Filter>Package</Filter>
+    </Media>
+    <Media Include="sounds\Menu_Sound.mp3">
+      <Filter>Package</Filter>
+    </Media>
+    <Media Include="sounds\rocket_sound.wav">
+      <Filter>Package</Filter>
+    </Media>
+    <Media Include="sounds\sua_sound.wav">
+      <Filter>Package</Filter>
+    </Media>
+    <Media Include="sounds\tele_sound.wav">
+      <Filter>Package</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

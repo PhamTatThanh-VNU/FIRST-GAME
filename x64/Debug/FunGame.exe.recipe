@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\x64\Debug\FunGame.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\highscore.txt</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\font\font suggest.ttf</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\font\fonts.ttf</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\imgs\background\1.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\imgs\background\2.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\imgs\background\3.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\imgs\background\4.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\imgs\background\5.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\imgs\background\CityMenu.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\imgs\background\ground.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\imgs\background\lose.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\imgs\background\tutorials.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\imgs\button\big_button\continueandpause.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\imgs\button\big_button\exit_button.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\imgs\button\big_button\Play game.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\imgs\button\big_button\Tutorials.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\imgs\character\char.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\imgs\character\Jump.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\imgs\character\tele.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\imgs\Threats\dog.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\imgs\Threats\Drop.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\imgs\Threats\obstacle.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\imgs\Threats\rocket.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\imgs\Threats\warning.png</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\sounds\bkgr_sound.mp3</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\sounds\button_sound.wav</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\sounds\click_sound.wav</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\sounds\gLose.mp3</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\sounds\jump_sound.wav</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\sounds\Menu_Sound.mp3</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\sounds\rocket_sound.wav</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\sounds\sua_sound.wav</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Dev\FUNGAME\CIty Hunter Running\sounds\tele_sound.wav</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

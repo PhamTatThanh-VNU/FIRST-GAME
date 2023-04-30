@@ -1,0 +1,52 @@
+﻿Button.obj : error LNK2019: unresolved external symbol _Mix_PlayChannelTimed referenced in function "public: bool __thiscall Button::IsSelected(union SDL_Event *,struct Mix_Chunk *,struct Mix_Chunk *)" (?IsSelected@Button@@QAE_NPATSDL_Event@@PAUMix_Chunk@@1@Z)
+Character.obj : error LNK2001: unresolved external symbol _Mix_PlayChannelTimed
+Threats.obj : error LNK2001: unresolved external symbol _Mix_PlayChannelTimed
+GameFeature.obj : error LNK2001: unresolved external symbol _Mix_PlayChannelTimed
+Character.obj : error LNK2019: unresolved external symbol _SDL_GetTicks referenced in function "public: void __thiscall Character::DrawTextShift(class LTexture,struct SDL_Color,struct SDL_Renderer *,struct _TTF_Font *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?DrawTextShift@Character@@QAEXVLTexture@@USDL_Color@@PAUSDL_Renderer@@PAU_TTF_Font@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+Character.obj : error LNK2019: unresolved external symbol _SDL_AddTimer referenced in function "public: void __thiscall Character::HandleEvent(union SDL_Event &,struct Mix_Chunk *,struct Mix_Chunk *)" (?HandleEvent@Character@@QAEXAATSDL_Event@@PAUMix_Chunk@@1@Z)
+GameFeature.obj : error LNK2019: unresolved external symbol _SDL_PollEvent referenced in function "void __cdecl DrawEndGameSelection(class LTexture,union SDL_Event *,struct SDL_Renderer *,bool &)" (?DrawEndGameSelection@@YAXVLTexture@@PATSDL_Event@@PAUSDL_Renderer@@AA_N@Z)
+Game_Base.obj : error LNK2001: unresolved external symbol _SDL_PollEvent
+GameFeature.obj : error LNK2019: unresolved external symbol _SDL_WaitEvent referenced in function "void __cdecl HandleContinueButton(class Button,class LTexture,union SDL_Event *,struct SDL_Renderer *,struct SDL_Rect (&)[2],bool &,struct Mix_Chunk *)" (?HandleContinueButton@@YAXVButton@@VLTexture@@PATSDL_Event@@PAUSDL_Renderer@@AAY01USDL_Rect@@AA_NPAUMix_Chunk@@@Z)
+GameFeature.obj : error LNK2019: unresolved external symbol _SDL_RenderPresent referenced in function "void __cdecl DrawEndGameSelection(class LTexture,union SDL_Event *,struct SDL_Renderer *,bool &)" (?DrawEndGameSelection@@YAXVLTexture@@PATSDL_Event@@PAUSDL_Renderer@@AA_N@Z)
+Game_Base.obj : error LNK2001: unresolved external symbol _SDL_RenderPresent
+GameFeature.obj : error LNK2019: unresolved external symbol _SDL_Delay referenced in function "void __cdecl ControlCharFrame(int &)" (?ControlCharFrame@@YAXAAH@Z)
+GameFeature.obj : error LNK2019: unresolved external symbol _Mix_ResumeMusic referenced in function "void __cdecl HandleContinueButton(class Button,class LTexture,union SDL_Event *,struct SDL_Renderer *,struct SDL_Rect (&)[2],bool &,struct Mix_Chunk *)" (?HandleContinueButton@@YAXVButton@@VLTexture@@PATSDL_Event@@PAUSDL_Renderer@@AAY01USDL_Rect@@AA_NPAUMix_Chunk@@@Z)
+Game_Base.obj : error LNK2019: unresolved external symbol _SDL_GetError referenced in function "void __cdecl GetError(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,int)" (?GetError@@YAXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+LTexture.obj : error LNK2001: unresolved external symbol _SDL_GetError
+Game_Base.obj : error LNK2019: unresolved external symbol _SDL_RWFromFile referenced in function "bool __cdecl LoadMedia(void)" (?LoadMedia@@YA_NXZ)
+Game_Base.obj : error LNK2019: unresolved external symbol _SDL_CreateWindow referenced in function "bool __cdecl Init(void)" (?Init@@YA_NXZ)
+Game_Base.obj : error LNK2019: unresolved external symbol _SDL_DestroyWindow referenced in function "void __cdecl Close(void)" (?Close@@YAXXZ)
+Game_Base.obj : error LNK2019: unresolved external symbol _SDL_SetHint referenced in function "bool __cdecl Init(void)" (?Init@@YA_NXZ)
+Game_Base.obj : error LNK2019: unresolved external symbol _SDL_CreateRenderer referenced in function "bool __cdecl Init(void)" (?Init@@YA_NXZ)
+Game_Base.obj : error LNK2019: unresolved external symbol _SDL_SetRenderDrawColor referenced in function "bool __cdecl Init(void)" (?Init@@YA_NXZ)
+Game_Base.obj : error LNK2019: unresolved external symbol _SDL_RenderClear referenced in function "void __cdecl gameLoop(void)" (?gameLoop@@YAXXZ)
+Game_Base.obj : error LNK2019: unresolved external symbol _SDL_DestroyRenderer referenced in function "void __cdecl Close(void)" (?Close@@YAXXZ)
+Game_Base.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function "bool __cdecl Init(void)" (?Init@@YA_NXZ)
+Game_Base.obj : error LNK2019: unresolved external symbol _SDL_Quit referenced in function "void __cdecl Close(void)" (?Close@@YAXXZ)
+Game_Base.obj : error LNK2019: unresolved external symbol _IMG_Init referenced in function "bool __cdecl Init(void)" (?Init@@YA_NXZ)
+Game_Base.obj : error LNK2019: unresolved external symbol _IMG_Quit referenced in function "void __cdecl Close(void)" (?Close@@YAXXZ)
+Game_Base.obj : error LNK2019: unresolved external symbol _Mix_Quit referenced in function "void __cdecl Close(void)" (?Close@@YAXXZ)
+Game_Base.obj : error LNK2019: unresolved external symbol _Mix_OpenAudio referenced in function "bool __cdecl Init(void)" (?Init@@YA_NXZ)
+Game_Base.obj : error LNK2019: unresolved external symbol _Mix_LoadWAV_RW referenced in function "bool __cdecl LoadMedia(void)" (?LoadMedia@@YA_NXZ)
+Game_Base.obj : error LNK2019: unresolved external symbol _Mix_LoadMUS referenced in function "bool __cdecl LoadMedia(void)" (?LoadMedia@@YA_NXZ)
+Game_Base.obj : error LNK2019: unresolved external symbol _Mix_FreeChunk referenced in function "void __cdecl Close(void)" (?Close@@YAXXZ)
+Game_Base.obj : error LNK2019: unresolved external symbol _Mix_FreeMusic referenced in function "void __cdecl Close(void)" (?Close@@YAXXZ)
+Game_Base.obj : error LNK2019: unresolved external symbol _Mix_PlayMusic referenced in function "void __cdecl gameLoop(void)" (?gameLoop@@YAXXZ)
+Game_Base.obj : error LNK2019: unresolved external symbol _Mix_PausedMusic referenced in function "void __cdecl gameLoop(void)" (?gameLoop@@YAXXZ)
+Game_Base.obj : error LNK2019: unresolved external symbol _TTF_Init referenced in function "bool __cdecl Init(void)" (?Init@@YA_NXZ)
+Game_Base.obj : error LNK2019: unresolved external symbol _TTF_OpenFont referenced in function "bool __cdecl LoadMedia(void)" (?LoadMedia@@YA_NXZ)
+LTexture.obj : error LNK2019: unresolved external symbol _SDL_MapRGB referenced in function "public: bool __thiscall LTexture::LoadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct SDL_Renderer *)" (?LoadFromFile@LTexture@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUSDL_Renderer@@@Z)
+LTexture.obj : error LNK2019: unresolved external symbol _SDL_FreeSurface referenced in function "public: bool __thiscall LTexture::LoadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct SDL_Renderer *)" (?LoadFromFile@LTexture@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUSDL_Renderer@@@Z)
+LTexture.obj : error LNK2019: unresolved external symbol _SDL_SetColorKey referenced in function "public: bool __thiscall LTexture::LoadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct SDL_Renderer *)" (?LoadFromFile@LTexture@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUSDL_Renderer@@@Z)
+LTexture.obj : error LNK2019: unresolved external symbol _SDL_CreateTextureFromSurface referenced in function "public: bool __thiscall LTexture::LoadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct SDL_Renderer *)" (?LoadFromFile@LTexture@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUSDL_Renderer@@@Z)
+LTexture.obj : error LNK2019: unresolved external symbol _SDL_RenderCopy referenced in function "public: void __thiscall LTexture::Render(int,int,struct SDL_Renderer *,struct SDL_Rect *)" (?Render@LTexture@@QAEXHHPAUSDL_Renderer@@PAUSDL_Rect@@@Z)
+LTexture.obj : error LNK2019: unresolved external symbol _IMG_Load referenced in function "public: bool __thiscall LTexture::LoadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct SDL_Renderer *)" (?LoadFromFile@LTexture@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAUSDL_Renderer@@@Z)
+LTexture.obj : error LNK2019: unresolved external symbol _TTF_RenderText_Solid referenced in function "public: bool __thiscall LTexture::LoadFromFileTTF(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,struct _TTF_Font *,struct SDL_Color,struct SDL_Renderer *)" (?LoadFromFileTTF@LTexture@@QAE_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAU_TTF_Font@@USDL_Color@@PAUSDL_Renderer@@@Z)
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Dev\SDL2_image-2.6.2\lib\x64\SDL2_image.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Dev\SDL2_mixer-2.0.4\lib\x64\SDL2_mixer.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Dev\SDL2_ttf-2.20.2\lib\x64\SDL2_ttf.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Dev\SDL2-2.26.3\lib\x64\SDL2.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Dev\SDL2-2.26.3\lib\x64\SDL2main.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Dev\SDL2-2.26.3\lib\x64\SDL2test.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Dev\FUNGAME\CIty Hunter Running\Debug\FunGame.exe : fatal error LNK1120: 39 unresolved externals
